@@ -14,7 +14,7 @@ const Modal =  ({ open,setOpen}) => (<div className={`overlay animated ${open ? 
 </div>)
 
 function App() {
-   const [open ,setOpen] = React.useState(false) // начальное состояние стейна что модальное окно не открыто false
+   const [open ,setOpen] = useState(false) // начальное состояние стейна что модальное окно не открыто false
 
   return (
     <div className="App"> 
